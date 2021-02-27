@@ -11,7 +11,7 @@ endpoint_url = f'{base_url}/{endpoint}?api_key={my_token}'
 #headers = {'X-Authorization': my_token}
 
 # settings for the specific search query
-keyword_search = 'Migranten' # search for all occurrences of 'Migrant' and 'Merkel'
+keyword_search = 'Migranten' # search for all occurrences of 'Migrant'
 limit = 100 # limit the result set to 100 for now
 
 # pass the settings and parameters to the get request
